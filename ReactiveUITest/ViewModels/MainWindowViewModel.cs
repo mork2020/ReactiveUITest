@@ -23,17 +23,17 @@ namespace AvaloniaNugetSearcher.ViewModels
                                 
             this
                 .WhenAnyValue(x => x.SearchTerm)
-                .Skip(1) // ignore the initial NullOrEmpty value of SearchTerm                                                        
+                .Skip(1) // ignore the initial NullOrEmpty value of SearchTerm     
+                .Delay(TimeSpan.FromSeconds(0.1)) // only need for avalonia 0.10.0
+                .ObserveOn(RxApp.MainThreadScheduler)
                 .Subscribe(val =>
                 {
-                    String n = val;
-                    if (n.Equals("aaa"))
+                    if (val.Equals("aaa"))
                     {
-                        n = "bbb";
+                        SearchTerm = "bbb";
                     }
-                    Console.WriteLine("WhenAnyValue Subscribe() -> " + $"SearchTerm value changed to: \"{n}\"\n");
-                    SearchTerm = n;
-                });        
+                    Console.WriteLine("WhenAnyValue Subscribe() -> " + $"SearchTerm value changed to: \"{SearchTerm}\"\n");
+                });
         }        
     }
 }

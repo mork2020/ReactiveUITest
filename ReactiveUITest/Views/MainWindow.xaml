@@ -10,9 +10,9 @@
         Title="ReactiveTest"
         Name="wndMain">
   
-    <StackPanel Margin="12" Orientation="Horizontal" DockPanel.Dock="Top" Background="AntiqueWhite" HorizontalAlignment="Stretch" Height="30">
-      <TextBlock FontSize="16" FontWeight="SemiBold" Text="Search for:" HorizontalAlignment="Left"/>
-      <TextBox Name="tbSearchTerm" HorizontalAlignment="Stretch" Background="Coral"/>      
-    </StackPanel>   
+    <DockPanel Margin="12" Background="AntiqueWhite" Height="30">
+      <TextBlock DockPanel.Dock="Left" FontSize="16" FontWeight="SemiBold" Text="Search for:" Background="YellowGreen" HorizontalAlignment="Left"/>
+      <TextBox DockPanel.Dock="Right" Name="tbSearchTerm" Background="Coral" HorizontalAlignment="Stretch"/>      
+    </DockPanel>   
 
 </Window>
