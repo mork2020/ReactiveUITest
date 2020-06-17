@@ -2,17 +2,17 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Avalonia/0.9.999-cibuild0008397-beta": {
+      "Avalonia/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia.Remote.Protocol": "0.9.999-cibuild0008397-beta",
+          "Avalonia.Remote.Protocol": "0.9.10",
           "JetBrains.Annotations": "10.3.0",
           "Serilog": "2.5.0",
           "Serilog.Sinks.Debug": "1.0.0",
           "Serilog.Sinks.Trace": "2.1.0",
           "System.ComponentModel.Annotations": "4.5.0",
           "System.Memory": "4.5.3",
-          "System.Reactive": "4.4.1",
+          "System.Reactive": "4.1.6",
           "System.Reflection.Emit": "4.3.0",
           "System.Runtime.CompilerServices.Unsafe": "4.6.0",
           "System.ValueTuple": "4.5.0"
@@ -23,6 +23,7 @@
           "lib/netcoreapp2.0/Avalonia.Controls.dll": {},
           "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
           "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Diagnostics.dll": {},
           "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {},
           "lib/netcoreapp2.0/Avalonia.Input.dll": {},
           "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {},
@@ -33,7 +34,6 @@
           "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {},
           "lib/netcoreapp2.0/Avalonia.Styling.dll": {},
           "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {},
           "lib/netcoreapp2.0/Avalonia.Visuals.dll": {},
           "lib/netcoreapp2.0/Avalonia.dll": {}
         },
@@ -43,6 +43,7 @@
           "lib/netcoreapp2.0/Avalonia.Controls.dll": {},
           "lib/netcoreapp2.0/Avalonia.DesignerSupport.dll": {},
           "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll": {},
+          "lib/netcoreapp2.0/Avalonia.Diagnostics.dll": {},
           "lib/netcoreapp2.0/Avalonia.Dialogs.dll": {},
           "lib/netcoreapp2.0/Avalonia.Input.dll": {},
           "lib/netcoreapp2.0/Avalonia.Interactivity.dll": {},
@@ -53,7 +54,6 @@
           "lib/netcoreapp2.0/Avalonia.OpenGL.dll": {},
           "lib/netcoreapp2.0/Avalonia.Styling.dll": {},
           "lib/netcoreapp2.0/Avalonia.Themes.Default.dll": {},
-          "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll": {},
           "lib/netcoreapp2.0/Avalonia.Visuals.dll": {},
           "lib/netcoreapp2.0/Avalonia.dll": {}
         },
@@ -62,36 +62,15 @@
           "build/Avalonia.targets": {}
         }
       },
-      "Avalonia.Angle.Windows.Natives/2.1.0.2019013001": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/win-x64/native/libegl.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/libglesv2.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/libegl.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/libglesv2.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "Avalonia.Desktop/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Desktop/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Direct2D1": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Native": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Skia": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Win32": "0.9.999-cibuild0008397-beta",
-          "Avalonia.X11": "0.9.999-cibuild0008397-beta"
+          "Avalonia": "0.9.10",
+          "Avalonia.Direct2D1": "0.9.10",
+          "Avalonia.Native": "0.9.10",
+          "Avalonia.Skia": "0.9.10",
+          "Avalonia.Win32": "0.9.10",
+          "Avalonia.X11": "0.9.10"
         },
         "compile": {
           "lib/netstandard2.0/Avalonia.Desktop.dll": {}
@@ -100,17 +79,16 @@
           "lib/netstandard2.0/Avalonia.Desktop.dll": {}
         }
       },
-      "Avalonia.Direct2D1/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Direct2D1/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
-          "HarfBuzzSharp": "2.6.1",
+          "Avalonia": "0.9.10",
           "JetBrains.Annotations": "10.3.0",
           "SharpDX": "4.0.1",
           "SharpDX.DXGI": "4.0.1",
           "SharpDX.Direct2D1": "4.0.1",
           "SharpDX.Direct3D11": "4.0.1",
-          "System.Reactive": "4.4.1"
+          "System.Reactive": "4.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Avalonia.Direct2D1.dll": {}
@@ -119,10 +97,10 @@
           "lib/netstandard2.0/Avalonia.Direct2D1.dll": {}
         }
       },
-      "Avalonia.FreeDesktop/0.9.999-cibuild0008397-beta": {
+      "Avalonia.FreeDesktop/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
+          "Avalonia": "0.9.10",
           "Tmds.DBus": "0.7.0"
         },
         "compile": {
@@ -132,10 +110,10 @@
           "lib/netstandard2.0/Avalonia.FreeDesktop.dll": {}
         }
       },
-      "Avalonia.Native/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Native/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
+          "Avalonia": "0.9.10",
           "SharpGen.Runtime": "1.2.1",
           "SharpGen.Runtime.COM": "1.2.0"
         },
@@ -155,12 +133,12 @@
           }
         }
       },
-      "Avalonia.ReactiveUI/0.9.999-cibuild0008397-beta": {
+      "Avalonia.ReactiveUI/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
+          "Avalonia": "0.9.10",
           "ReactiveUI": "10.3.6",
-          "System.Reactive": "4.4.1"
+          "System.Reactive": "4.1.6"
         },
         "compile": {
           "lib/netstandard2.0/Avalonia.ReactiveUI.dll": {}
@@ -169,7 +147,7 @@
           "lib/netstandard2.0/Avalonia.ReactiveUI.dll": {}
         }
       },
-      "Avalonia.Remote.Protocol/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Remote.Protocol/0.9.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
@@ -178,14 +156,12 @@
           "lib/netstandard2.0/Avalonia.Remote.Protocol.dll": {}
         }
       },
-      "Avalonia.Skia/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Skia/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
-          "HarfBuzzSharp": "2.6.1",
-          "HarfBuzzSharp.NativeAssets.Linux": "2.6.1",
-          "SkiaSharp": "1.68.2.1",
-          "SkiaSharp.NativeAssets.Linux": "1.68.2.1"
+          "Avalonia": "0.9.10",
+          "Avalonia.Skia.Linux.Natives": "1.68.0.2",
+          "SkiaSharp": "1.68.0"
         },
         "compile": {
           "lib/netstandard2.0/Avalonia.Skia.dll": {}
@@ -194,11 +170,33 @@
           "lib/netstandard2.0/Avalonia.Skia.dll": {}
         }
       },
-      "Avalonia.Win32/0.9.999-cibuild0008397-beta": {
+      "Avalonia.Skia.Linux.Natives/1.68.0.2": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Angle.Windows.Natives": "2.1.0.2019013001",
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "SkiaSharp": "[1.68.0]"
+        },
+        "compile": {
+          "lib/netcoreapp1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "Avalonia.Win32/0.9.10": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.9.10",
           "System.Drawing.Common": "4.5.0"
         },
         "compile": {
@@ -208,12 +206,12 @@
           "lib/netstandard2.0/Avalonia.Win32.dll": {}
         }
       },
-      "Avalonia.X11/0.9.999-cibuild0008397-beta": {
+      "Avalonia.X11/0.9.10": {
         "type": "package",
         "dependencies": {
-          "Avalonia": "0.9.999-cibuild0008397-beta",
-          "Avalonia.FreeDesktop": "0.9.999-cibuild0008397-beta",
-          "Avalonia.Skia": "0.9.999-cibuild0008397-beta"
+          "Avalonia": "0.9.10",
+          "Avalonia.FreeDesktop": "0.9.10",
+          "Avalonia.Skia": "0.9.10"
         },
         "compile": {
           "lib/netstandard2.0/Avalonia.X11.dll": {}
@@ -232,55 +230,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/DynamicData.dll": {}
-        }
-      },
-      "HarfBuzzSharp/2.6.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/HarfBuzzSharp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/HarfBuzzSharp.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/tizen-armel/native/libHarfBuzzSharp.so": {
-            "assetType": "native",
-            "rid": "tizen-armel"
-          },
-          "runtimes/tizen-x86/native/libHarfBuzzSharp.so": {
-            "assetType": "native",
-            "rid": "tizen-x86"
-          },
-          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.Linux/2.6.1": {
-        "type": "package",
-        "dependencies": {
-          "HarfBuzzSharp": "2.6.1"
-        },
-        "compile": {
-          "lib/netstandard/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux-x64/native/libHarfBuzzSharp.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          }
         }
       },
       "JetBrains.Annotations/10.3.0": {
@@ -1021,16 +970,13 @@
           "build/netstandard1.1/_._": {}
         }
       },
-      "SkiaSharp/1.68.2.1": {
+      "SkiaSharp/1.68.0": {
         "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
         "compile": {
-          "lib/netstandard2.0/SkiaSharp.dll": {}
+          "lib/netstandard1.3/SkiaSharp.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/SkiaSharp.dll": {}
+          "lib/netstandard1.3/SkiaSharp.dll": {}
         },
         "runtimeTargets": {
           "runtimes/osx/native/libSkiaSharp.dylib": {
@@ -1052,24 +998,6 @@
           "runtimes/win-x86/native/libSkiaSharp.dll": {
             "assetType": "native",
             "rid": "win-x86"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Linux/1.68.2.1": {
-        "type": "package",
-        "dependencies": {
-          "SkiaSharp": "1.68.2.1"
-        },
-        "compile": {
-          "lib/netstandard/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux-x64/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
           }
         }
       },
@@ -1970,16 +1898,17 @@
           "lib/netstandard1.3/System.ObjectModel.dll": {}
         }
       },
-      "System.Reactive/4.4.1": {
+      "System.Reactive/4.1.6": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
         "compile": {
-          "lib/netcoreapp3.0/_._": {}
+          "lib/netstandard2.0/System.Reactive.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/_._": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.0/System.Reactive.targets": {}
+          "lib/netstandard2.0/System.Reactive.dll": {}
         }
       },
       "System.Reflection/4.3.0": {
@@ -2233,6 +2162,18 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Runtime.InteropServices.WindowsRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
       "System.Runtime.Loader/4.0.0": {
@@ -2679,18 +2620,13 @@
           "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.3.0": {
+      "System.Threading.Tasks.Extensions/4.5.2": {
         "type": "package",
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading.Tasks": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
+          "ref/netcoreapp2.1/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Threading.Tasks.Parallel/4.0.1": {
@@ -2883,14 +2819,14 @@
     }
   },
   "libraries": {
-    "Avalonia/0.9.999-cibuild0008397-beta": {
-      "sha512": "kW7iItvPUfUJcUZA1LZBfzfKnEjFKF2Ka69a/hF54c8Yz1nzjHZ3IGfrp118qoc95Pa6bOC3IgVCQ7haD7y2hQ==",
+    "Avalonia/0.9.10": {
+      "sha512": "QL4+5ukdHrxxGQ4V1L2fFuzle2l5sTHw21KZoMrRlocISEpKOU3pwo4FEoEo9tGQIsAus56qjISZ752pZklymg==",
       "type": "package",
-      "path": "avalonia/0.9.999-cibuild0008397-beta",
+      "path": "avalonia/0.9.10",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
-        "avalonia.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.0.9.10.nupkg.sha512",
         "avalonia.nuspec",
         "build/Avalonia.props",
         "build/Avalonia.targets",
@@ -2911,6 +2847,9 @@
         "lib/net461/Avalonia.DesktopRuntime.dll",
         "lib/net461/Avalonia.DesktopRuntime.pdb",
         "lib/net461/Avalonia.DesktopRuntime.xml",
+        "lib/net461/Avalonia.Diagnostics.dll",
+        "lib/net461/Avalonia.Diagnostics.pdb",
+        "lib/net461/Avalonia.Diagnostics.xml",
         "lib/net461/Avalonia.Dialogs.dll",
         "lib/net461/Avalonia.Dialogs.pdb",
         "lib/net461/Avalonia.Dialogs.xml",
@@ -2941,9 +2880,6 @@
         "lib/net461/Avalonia.Themes.Default.dll",
         "lib/net461/Avalonia.Themes.Default.pdb",
         "lib/net461/Avalonia.Themes.Default.xml",
-        "lib/net461/Avalonia.Themes.Fluent.dll",
-        "lib/net461/Avalonia.Themes.Fluent.pdb",
-        "lib/net461/Avalonia.Themes.Fluent.xml",
         "lib/net461/Avalonia.Visuals.dll",
         "lib/net461/Avalonia.Visuals.pdb",
         "lib/net461/Avalonia.Visuals.xml",
@@ -2964,6 +2900,9 @@
         "lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll",
         "lib/netcoreapp2.0/Avalonia.DesktopRuntime.pdb",
         "lib/netcoreapp2.0/Avalonia.DesktopRuntime.xml",
+        "lib/netcoreapp2.0/Avalonia.Diagnostics.dll",
+        "lib/netcoreapp2.0/Avalonia.Diagnostics.pdb",
+        "lib/netcoreapp2.0/Avalonia.Diagnostics.xml",
         "lib/netcoreapp2.0/Avalonia.Dialogs.dll",
         "lib/netcoreapp2.0/Avalonia.Dialogs.pdb",
         "lib/netcoreapp2.0/Avalonia.Dialogs.xml",
@@ -2994,9 +2933,6 @@
         "lib/netcoreapp2.0/Avalonia.Themes.Default.dll",
         "lib/netcoreapp2.0/Avalonia.Themes.Default.pdb",
         "lib/netcoreapp2.0/Avalonia.Themes.Default.xml",
-        "lib/netcoreapp2.0/Avalonia.Themes.Fluent.dll",
-        "lib/netcoreapp2.0/Avalonia.Themes.Fluent.pdb",
-        "lib/netcoreapp2.0/Avalonia.Themes.Fluent.xml",
         "lib/netcoreapp2.0/Avalonia.Visuals.dll",
         "lib/netcoreapp2.0/Avalonia.Visuals.pdb",
         "lib/netcoreapp2.0/Avalonia.Visuals.xml",
@@ -3014,6 +2950,9 @@
         "lib/netstandard2.0/Avalonia.DesignerSupport.dll",
         "lib/netstandard2.0/Avalonia.DesignerSupport.pdb",
         "lib/netstandard2.0/Avalonia.DesignerSupport.xml",
+        "lib/netstandard2.0/Avalonia.Diagnostics.dll",
+        "lib/netstandard2.0/Avalonia.Diagnostics.pdb",
+        "lib/netstandard2.0/Avalonia.Diagnostics.xml",
         "lib/netstandard2.0/Avalonia.Dialogs.dll",
         "lib/netstandard2.0/Avalonia.Dialogs.pdb",
         "lib/netstandard2.0/Avalonia.Dialogs.xml",
@@ -3044,9 +2983,6 @@
         "lib/netstandard2.0/Avalonia.Themes.Default.dll",
         "lib/netstandard2.0/Avalonia.Themes.Default.pdb",
         "lib/netstandard2.0/Avalonia.Themes.Default.xml",
-        "lib/netstandard2.0/Avalonia.Themes.Fluent.dll",
-        "lib/netstandard2.0/Avalonia.Themes.Fluent.pdb",
-        "lib/netstandard2.0/Avalonia.Themes.Fluent.xml",
         "lib/netstandard2.0/Avalonia.Visuals.dll",
         "lib/netstandard2.0/Avalonia.Visuals.pdb",
         "lib/netstandard2.0/Avalonia.Visuals.xml",
@@ -3058,68 +2994,53 @@
         "tools/netstandard2.0/Avalonia.Build.Tasks.pdb"
       ]
     },
-    "Avalonia.Angle.Windows.Natives/2.1.0.2019013001": {
-      "sha512": "sMJYV9/Xha3uy6gvKQFgakTOeRxuU43eI/lUj5O7cI8dkBKJ9QwNCHnIF4AY2ZsQuojPPnYaQmrtzpqeWyacyg==",
+    "Avalonia.Desktop/0.9.10": {
+      "sha512": "Mw9gVwwFZLeAWhx05/ACOO+rfhkZuCjCU5FZFIyJfJ9NFuS3Xw2Tdp5Mgivo5KQYaj3R/T+YtisDB7S0C9Qx0g==",
       "type": "package",
-      "path": "avalonia.angle.windows.natives/2.1.0.2019013001",
+      "path": "avalonia.desktop/0.9.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "avalonia.angle.windows.natives.2.1.0.2019013001.nupkg.sha512",
-        "avalonia.angle.windows.natives.nuspec",
-        "build/net45/SkiaSharp.targets",
-        "runtimes/win-x64/native/libegl.dll",
-        "runtimes/win-x64/native/libglesv2.dll",
-        "runtimes/win-x86/native/libegl.dll",
-        "runtimes/win-x86/native/libglesv2.dll"
-      ]
-    },
-    "Avalonia.Desktop/0.9.999-cibuild0008397-beta": {
-      "sha512": "qWHBIOYra67TPoQIFnv7RIfc+RjIjlGasQaSc5Nl2m8KdM/G9L+xRCgIdPaWuX5F2Mbc3/5PJ39xY9o6k43z3Q==",
-      "type": "package",
-      "path": "avalonia.desktop/0.9.999-cibuild0008397-beta",
-      "files": [
-        ".nupkg.metadata",
-        "avalonia.desktop.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.desktop.0.9.10.nupkg.sha512",
         "avalonia.desktop.nuspec",
         "lib/netstandard2.0/Avalonia.Desktop.dll",
         "lib/netstandard2.0/Avalonia.Desktop.pdb",
         "lib/netstandard2.0/Avalonia.Desktop.xml"
       ]
     },
-    "Avalonia.Direct2D1/0.9.999-cibuild0008397-beta": {
-      "sha512": "Xf8zTedmlTocnt0Hv/JujDy1NidYA2XJHimgocRLTK4gwxxYbHmHpN8grchXcxI/F3Q0C+E+3iFG2AmNc1+41w==",
+    "Avalonia.Direct2D1/0.9.10": {
+      "sha512": "6rFoUMCsrP+T+j4BoTP3iuN+S2m9hSgyFymICiGqbxqk8zO1FtGZ+cSvOLkVuiFI5pGTCMVHOGG3zuHN6sX0XA==",
       "type": "package",
-      "path": "avalonia.direct2d1/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.direct2d1/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.direct2d1.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.direct2d1.0.9.10.nupkg.sha512",
         "avalonia.direct2d1.nuspec",
         "lib/netstandard2.0/Avalonia.Direct2D1.dll",
         "lib/netstandard2.0/Avalonia.Direct2D1.pdb",
         "lib/netstandard2.0/Avalonia.Direct2D1.xml"
       ]
     },
-    "Avalonia.FreeDesktop/0.9.999-cibuild0008397-beta": {
-      "sha512": "UwvRkw4T/5g8hG6cILusigW3uQyJunReTKKNRPJkJpyVFp8hLe1zBC2nAP4apqittYeCiEb/hzG6MrkqbYS2YA==",
+    "Avalonia.FreeDesktop/0.9.10": {
+      "sha512": "aVUqY+vpswtbLx1jdBbKETKlOZboxktgBZgZzsslkwi91o1blV+BtO6rlZFAWunPJUQqaNo3Bcnp4v+dKnqJeA==",
       "type": "package",
-      "path": "avalonia.freedesktop/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.freedesktop/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.freedesktop.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.freedesktop.0.9.10.nupkg.sha512",
         "avalonia.freedesktop.nuspec",
         "lib/netstandard2.0/Avalonia.FreeDesktop.dll",
         "lib/netstandard2.0/Avalonia.FreeDesktop.pdb",
         "lib/netstandard2.0/Avalonia.FreeDesktop.xml"
       ]
     },
-    "Avalonia.Native/0.9.999-cibuild0008397-beta": {
-      "sha512": "GihOowaRQb5x/Re18bCBL92sin+zWkoCtNopSKOB2O5M2v30NV/3XHReLHFKvs2PHU2Qg0/IWDNdz5zvATi7jw==",
+    "Avalonia.Native/0.9.10": {
+      "sha512": "n7Ia5hwSM0roth8unkG6BlpIMj3+8tzV5RExYPuhxius0dC97+f1DjvqmjqR0vYgsljDmdfgFgPGuyQ3glfYyg==",
       "type": "package",
-      "path": "avalonia.native/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.native/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.native.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.native.0.9.10.nupkg.sha512",
         "avalonia.native.nuspec",
         "build/netstandard2.0/Avalonia.Native.BindMapping.xml",
         "build/netstandard2.0/Avalonia.Native.props",
@@ -3131,65 +3052,82 @@
         "runtimes/osx/native/libAvaloniaNative.dylib"
       ]
     },
-    "Avalonia.ReactiveUI/0.9.999-cibuild0008397-beta": {
-      "sha512": "sHrF+4xEL32GDDrK6KfOKCQk79wiMmjZCq1jYI/c66tHY6PZhPZcRqTj6Xvma3WOtTIq9O5b17yEtUo4hvHXhw==",
+    "Avalonia.ReactiveUI/0.9.10": {
+      "sha512": "FJQ80jAyiblYyUdNGb9shAJt4fyED1liOL8vBzmqV+wMwawD6dQC7LXDDWeVhZJ3jOQyg6Or1haqEJX1EW28KA==",
       "type": "package",
-      "path": "avalonia.reactiveui/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.reactiveui/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.reactiveui.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.reactiveui.0.9.10.nupkg.sha512",
         "avalonia.reactiveui.nuspec",
         "lib/netstandard2.0/Avalonia.ReactiveUI.dll",
         "lib/netstandard2.0/Avalonia.ReactiveUI.pdb",
         "lib/netstandard2.0/Avalonia.ReactiveUI.xml"
       ]
     },
-    "Avalonia.Remote.Protocol/0.9.999-cibuild0008397-beta": {
-      "sha512": "wiNOcvzrs4mRRIa5h8oNTUg7TU8NE0Oo42Mw+6RjqpOBQF+QcSngQ04IGVPU1Emjucdlu1FmQUxow0EXDQMhvg==",
+    "Avalonia.Remote.Protocol/0.9.10": {
+      "sha512": "lnQ1tmad9GyF/33QD62bwLQA3TdSOZGXgj2in9ZzSAtmxBAf+XYJNbmK09CMRR1pbRF2q+MWUOrnzUyA3uuVGg==",
       "type": "package",
-      "path": "avalonia.remote.protocol/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.remote.protocol/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.remote.protocol.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.remote.protocol.0.9.10.nupkg.sha512",
         "avalonia.remote.protocol.nuspec",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.dll",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.pdb",
         "lib/netstandard2.0/Avalonia.Remote.Protocol.xml"
       ]
     },
-    "Avalonia.Skia/0.9.999-cibuild0008397-beta": {
-      "sha512": "d8143HmdtZmrXNXqv2Ou8wM6/yoSVFJMvzQk2/4tZfkkcEuGxVXRFPnvsNnSPZcm8HE22NsUTa/v5WBz7nKxKA==",
+    "Avalonia.Skia/0.9.10": {
+      "sha512": "40jN55qA80ZokrnWE8bd1Q8CWwBsCYhmi2vnU3ER3XnqF0X8u39vSr9lIBix+Riua7TERfzjzzIv6bNPpWJ+AA==",
       "type": "package",
-      "path": "avalonia.skia/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.skia/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.skia.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.skia.0.9.10.nupkg.sha512",
         "avalonia.skia.nuspec",
         "lib/netstandard2.0/Avalonia.Skia.dll",
         "lib/netstandard2.0/Avalonia.Skia.pdb",
         "lib/netstandard2.0/Avalonia.Skia.xml"
       ]
     },
-    "Avalonia.Win32/0.9.999-cibuild0008397-beta": {
-      "sha512": "h4kEBg2EHpwK5uP17jYKU9wbVp5g5eaux2WOTBugCinEu1NEitBPno63COv/99RB+SJRKID/8VH17nfe0t6aag==",
+    "Avalonia.Skia.Linux.Natives/1.68.0.2": {
+      "sha512": "+QOEmxgocpdXCeDp9e/dP1ZW+J9G4U3IcnwRHBD5tn6hYCGoroE1Wsdws49EE1qF5UjfxhMzy3cgoxuXC/D3pA==",
       "type": "package",
-      "path": "avalonia.win32/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.skia.linux.natives/1.68.0.2",
       "files": [
         ".nupkg.metadata",
-        "avalonia.win32.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        ".signature.p7s",
+        "avalonia.skia.linux.natives.1.68.0.2.nupkg.sha512",
+        "avalonia.skia.linux.natives.nuspec",
+        "build/net45/Avalonia.Skia.Linux.Natives.targets",
+        "lib/net45/_._",
+        "lib/netcoreapp1.0/_._",
+        "lib/netstandard1.1/_._",
+        "runtimes/linux-arm/native/libSkiaSharp.so",
+        "runtimes/linux-x64/native/libSkiaSharp.so"
+      ]
+    },
+    "Avalonia.Win32/0.9.10": {
+      "sha512": "W2DYtnDGlEd9MWbzyBAvRfWBLHAWvrxQ23shcH01daLt/ex3IAJ6Wf/X5QkpnW5CU7uIeZk8TaYEZxsW6izqjg==",
+      "type": "package",
+      "path": "avalonia.win32/0.9.10",
+      "files": [
+        ".nupkg.metadata",
+        "avalonia.win32.0.9.10.nupkg.sha512",
         "avalonia.win32.nuspec",
         "lib/netstandard2.0/Avalonia.Win32.dll",
         "lib/netstandard2.0/Avalonia.Win32.pdb",
         "lib/netstandard2.0/Avalonia.Win32.xml"
       ]
     },
-    "Avalonia.X11/0.9.999-cibuild0008397-beta": {
-      "sha512": "v7Gx+B6v0nh+s66omsxzqHXZx1vXHjNwDxNfpZaPolDiWNWm8Er0m/nE8w6Qee32hYiyUt+Eqk4kvf3Zqu0B/A==",
+    "Avalonia.X11/0.9.10": {
+      "sha512": "LGgkoycbPZtbdOQxq9aRsg411wmI0lVzN6hVWmGj5TeJFyeA/aYTknRQ454+sbRO1t2/NFA57W8Qe6F7FXhWKA==",
       "type": "package",
-      "path": "avalonia.x11/0.9.999-cibuild0008397-beta",
+      "path": "avalonia.x11/0.9.10",
       "files": [
         ".nupkg.metadata",
-        "avalonia.x11.0.9.999-cibuild0008397-beta.nupkg.sha512",
+        "avalonia.x11.0.9.10.nupkg.sha512",
         "avalonia.x11.nuspec",
         "lib/netstandard2.0/Avalonia.X11.dll",
         "lib/netstandard2.0/Avalonia.X11.pdb",
@@ -3213,64 +3151,6 @@
         "lib/uap10.0.16299/DynamicData.dll",
         "lib/uap10.0.16299/DynamicData.pri",
         "lib/uap10.0.16299/DynamicData.xml"
-      ]
-    },
-    "HarfBuzzSharp/2.6.1": {
-      "sha512": "LalTbSqrNDqkDvoFmurm81pVocmMngq+T7yS8Y5mZpTgqHIM1IRMjwsqBWiyRtR4jq66Uh1Dy676fD8e6Yet1w==",
-      "type": "package",
-      "path": "harfbuzzsharp/2.6.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net45/HarfBuzzSharp.targets",
-        "build/tizen40/HarfBuzzSharp.targets",
-        "harfbuzzsharp.2.6.1.nupkg.sha512",
-        "harfbuzzsharp.nuspec",
-        "lib/MonoAndroid/HarfBuzzSharp.dll",
-        "lib/MonoAndroid/HarfBuzzSharp.xml",
-        "lib/Xamarin.Mac20/HarfBuzzSharp.dll",
-        "lib/Xamarin.Mac20/HarfBuzzSharp.xml",
-        "lib/Xamarin.TVOS/HarfBuzzSharp.dll",
-        "lib/Xamarin.TVOS/HarfBuzzSharp.xml",
-        "lib/Xamarin.WatchOS/HarfBuzzSharp.dll",
-        "lib/Xamarin.WatchOS/HarfBuzzSharp.xml",
-        "lib/Xamarin.iOS/HarfBuzzSharp.dll",
-        "lib/Xamarin.iOS/HarfBuzzSharp.xml",
-        "lib/net45/HarfBuzzSharp.dll",
-        "lib/net45/HarfBuzzSharp.xml",
-        "lib/netstandard1.3/HarfBuzzSharp.dll",
-        "lib/netstandard1.3/HarfBuzzSharp.xml",
-        "lib/tizen40/HarfBuzzSharp.dll",
-        "lib/tizen40/HarfBuzzSharp.xml",
-        "lib/uap10.0/HarfBuzzSharp.dll",
-        "lib/uap10.0/HarfBuzzSharp.xml",
-        "runtimes/osx/native/libHarfBuzzSharp.dylib",
-        "runtimes/tizen-armel/native/libHarfBuzzSharp.so",
-        "runtimes/tizen-x86/native/libHarfBuzzSharp.so",
-        "runtimes/win-x64/native/libHarfBuzzSharp.dll",
-        "runtimes/win-x86/native/libHarfBuzzSharp.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libHarfBuzzSharp.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libHarfBuzzSharp.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libHarfBuzzSharp.dll"
-      ]
-    },
-    "HarfBuzzSharp.NativeAssets.Linux/2.6.1": {
-      "sha512": "XlHE9vikkrgB9wUJzfZcNsieB3C4PIcq4dTrTTr16KG39uKH3/imrb93k75JW5NvmTVHJvaKEP7tdbql8a26GQ==",
-      "type": "package",
-      "path": "harfbuzzsharp.nativeassets.linux/2.6.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net45/HarfBuzzSharp.NativeAssets.Linux.targets",
-        "harfbuzzsharp.nativeassets.linux.2.6.1.nupkg.sha512",
-        "harfbuzzsharp.nativeassets.linux.nuspec",
-        "lib/net45/_._",
-        "lib/netstandard/_._",
-        "runtimes/linux-x64/native/libHarfBuzzSharp.so"
       ]
     },
     "JetBrains.Annotations/10.3.0": {
@@ -4149,44 +4029,35 @@
         "sharpgen.runtime.com.nuspec"
       ]
     },
-    "SkiaSharp/1.68.2.1": {
-      "sha512": "ecEdDOeukBHW4bjvk6MZrGIAh3TyPyY1ImBKobuPs7PukKKkkZtiPxe35u2UXO9E68ulX4iMTNj/PmEaawPsRQ==",
+    "SkiaSharp/1.68.0": {
+      "sha512": "ptuxAKk9FiClNnAgWM8hVMCYw/B0hUJWZ8W6efnIAtJmJn/Xl4jvxxDF5WOqfQYCLVzxXw5gvBPVxvTLblFp0g==",
       "type": "package",
-      "path": "skiasharp/1.68.2.1",
+      "path": "skiasharp/1.68.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "THIRD-PARTY-NOTICES.txt",
         "build/net45/SkiaSharp.targets",
-        "build/net462/SkiaSharp.targets",
         "build/tizen40/SkiaSharp.targets",
-        "buildTransitive/net45/SkiaSharp.targets",
-        "buildTransitive/net462/SkiaSharp.targets",
-        "lib/monoandroid1.0/SkiaSharp.dll",
-        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
         "lib/net45/SkiaSharp.dll",
         "lib/net45/SkiaSharp.xml",
-        "lib/net462/SkiaSharp.dll",
-        "lib/net462/SkiaSharp.xml",
         "lib/netstandard1.3/SkiaSharp.dll",
         "lib/netstandard1.3/SkiaSharp.xml",
-        "lib/netstandard2.0/SkiaSharp.dll",
-        "lib/netstandard2.0/SkiaSharp.xml",
         "lib/tizen40/SkiaSharp.dll",
         "lib/tizen40/SkiaSharp.xml",
-        "lib/uap10.0.10240/SkiaSharp.dll",
-        "lib/uap10.0.10240/SkiaSharp.xml",
-        "lib/uap10.0.16299/SkiaSharp.dll",
-        "lib/uap10.0.16299/SkiaSharp.xml",
-        "lib/xamarinios1.0/SkiaSharp.dll",
-        "lib/xamarinios1.0/SkiaSharp.xml",
-        "lib/xamarinmac2.0/SkiaSharp.dll",
-        "lib/xamarinmac2.0/SkiaSharp.xml",
-        "lib/xamarintvos1.0/SkiaSharp.dll",
-        "lib/xamarintvos1.0/SkiaSharp.xml",
-        "lib/xamarinwatchos1.0/SkiaSharp.dll",
-        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
         "runtimes/osx/native/libSkiaSharp.dylib",
         "runtimes/tizen-armel/native/libSkiaSharp.so",
         "runtimes/tizen-x86/native/libSkiaSharp.so",
@@ -4201,27 +4072,9 @@
         "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
-        "skiasharp.1.68.2.1.nupkg.sha512",
+        "skiasharp.1.68.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
-      ]
-    },
-    "SkiaSharp.NativeAssets.Linux/1.68.2.1": {
-      "sha512": "N6L/YJMleRDh7ihZmrbWy+/8al+PJ27QIR6J10T+2gGeu/eQxzs5TZVM8KzqPPdJYWJiRmsKBhT43Er3eInOMg==",
-      "type": "package",
-      "path": "skiasharp.nativeassets.linux/1.68.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net45/SkiaSharp.NativeAssets.Linux.targets",
-        "buildTransitive/net45/SkiaSharp.NativeAssets.Linux.targets",
-        "lib/net45/_._",
-        "lib/netstandard/_._",
-        "runtimes/linux-x64/native/libSkiaSharp.so",
-        "skiasharp.nativeassets.linux.1.68.2.1.nupkg.sha512",
-        "skiasharp.nativeassets.linux.nuspec"
       ]
     },
     "Splat/9.0.5": {
@@ -6531,20 +6384,15 @@
         "system.objectmodel.nuspec"
       ]
     },
-    "System.Reactive/4.4.1": {
-      "sha512": "iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
+    "System.Reactive/4.1.6": {
+      "sha512": "mPLRPf2tql0Af4RcJRVPWiGxhJCbPQFNr74Qq0rDf+QXt8KV/SzYl9/NK604zf0s8Yu3hwelmCsDCjqp5SJoJA==",
       "type": "package",
-      "path": "system.reactive/4.4.1",
+      "path": "system.reactive/4.1.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/netcoreapp3.0/System.Reactive.dll",
-        "build/netcoreapp3.0/System.Reactive.targets",
-        "build/netcoreapp3.0/System.Reactive.xml",
-        "buildTransitive/netcoreapp3.0/System.Reactive.targets",
         "lib/net46/System.Reactive.dll",
         "lib/net46/System.Reactive.xml",
-        "lib/netcoreapp3.0/_._",
         "lib/netstandard2.0/System.Reactive.dll",
         "lib/netstandard2.0/System.Reactive.xml",
         "lib/uap10.0.16299/System.Reactive.dll",
@@ -6553,7 +6401,7 @@
         "lib/uap10.0/System.Reactive.dll",
         "lib/uap10.0/System.Reactive.pri",
         "lib/uap10.0/System.Reactive.xml",
-        "system.reactive.4.4.1.nupkg.sha512",
+        "system.reactive.4.1.6.nupkg.sha512",
         "system.reactive.nuspec"
       ]
     },
@@ -7410,6 +7258,67 @@
         "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.runtimeinformation.nuspec"
+      ]
+    },
+    "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
+      "sha512": "J4GUi3xZQLUBasNwZnjrffN8i5wpHrBtZoLG+OhRyGo/+YunMRWWtwoMDlUAIdmX0uRfpHIBDSV6zyr3yf00TA==",
+      "type": "package",
+      "path": "system.runtime.interopservices.windowsruntime/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netcore50/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/de/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/es/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/fr/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/it/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ja/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ko/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/ru/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "ref/netstandard1.0/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/de/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/es/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/it/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.InteropServices.WindowsRuntime.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
     "System.Runtime.Loader/4.0.0": {
@@ -8385,20 +8294,39 @@
         "system.threading.tasks.dataflow.nuspec"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.3.0": {
-      "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.3.0",
+      "path": "system.threading.tasks.extensions/4.5.2",
       "files": [
         ".nupkg.metadata",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
-        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
-        "system.threading.tasks.extensions.nuspec"
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Threading.Tasks.Parallel/4.0.1": {
@@ -8906,9 +8834,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Avalonia >= 0.9.999-cibuild0008397-beta",
-      "Avalonia.Desktop >= 0.9.999-cibuild0008397-beta",
-      "Avalonia.ReactiveUI >= 0.9.999-cibuild0008397-beta"
+      "Avalonia >= 0.9.10",
+      "Avalonia.Desktop >= 0.9.10",
+      "Avalonia.ReactiveUI >= 0.9.10"
     ]
   },
   "packageFolders": {
@@ -8959,15 +8887,15 @@
         "dependencies": {
           "Avalonia": {
             "target": "Package",
-            "version": "[0.9.999-cibuild0008397-beta, )"
+            "version": "[0.9.10, )"
           },
           "Avalonia.Desktop": {
             "target": "Package",
-            "version": "[0.9.999-cibuild0008397-beta, )"
+            "version": "[0.9.10, )"
           },
           "Avalonia.ReactiveUI": {
             "target": "Package",
-            "version": "[0.9.999-cibuild0008397-beta, )"
+            "version": "[0.9.10, )"
           }
         },
         "imports": [

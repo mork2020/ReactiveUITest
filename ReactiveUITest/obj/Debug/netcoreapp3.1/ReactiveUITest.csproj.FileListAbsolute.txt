@@ -9,6 +9,7 @@ U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Deb
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Controls.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.DesignerSupport.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.DesktopRuntime.dll
+U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Diagnostics.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Dialogs.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Input.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Interactivity.dll
@@ -53,6 +54,7 @@ U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Deb
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\System.Reactive.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Tmds.DBus.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\osx\native\libAvaloniaNative.dylib
+U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libSkiaSharp.so
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSkiaSharp.so
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
@@ -78,16 +80,3 @@ U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\obj\Deb
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\obj\Debug\netcoreapp3.1\ReactiveUITest.dll
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\obj\Debug\netcoreapp3.1\ReactiveUITest.pdb
 U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\obj\Debug\netcoreapp3.1\ReactiveUITest.genruntimeconfig.cache
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\Avalonia.Themes.Fluent.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\HarfBuzzSharp.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libegl.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libglesv2.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libegl.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libglesv2.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\osx\native\libHarfBuzzSharp.dylib
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libHarfBuzzSharp.so
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libHarfBuzzSharp.so
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libHarfBuzzSharp.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libHarfBuzzSharp.dll
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libHarfBuzzSharp.so
-U:\Daten\work\Recative\ReactiveUI.Avalonia\ReactiveUITest\ReactiveUITest\bin\Debug\netcoreapp3.1\System.Reactive.xml
